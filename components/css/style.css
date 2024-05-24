@@ -1,0 +1,50 @@
+body {
+    font-family: 'Roboto', sans-serif;
+	font-size: 1.1rem;
+	line-height: 1.5;
+	font-weight: 300;
+}
+@media (max-width: 700px) {
+	.display-1 {
+		font-size: 4rem;
+		font-weight: 300;
+		line-height: 1.2;
+	}
+	h5 {
+    font-size: 1rem;
+	}
+	.display-3 {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+	}
+}
+.contacts a {
+	text-decoration: none;
+	color: white;
+}
+.contacts a:hover {
+	opacity: 0.4;
+	color: gray;
+}
+.bg-img {
+	min-height: 100vh!important;
+	background-position: center center, center center;
+	background-attachment: fixed;
+	background-size: cover, cover;
+	background-repeat: repeat, repeat;
+}
+.well {
+	margin-top: 30%;
+}
+.w-100 {
+	min-width: 100vw!important;
+}
+.footer-copyright {
+    overflow: hidden;
+    background-color: rgba(14,25,79,.2);
+}
+.footer-copyright a {
+	text-decoration:none;
+	color: #0e194f;
+}
